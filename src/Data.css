@@ -1,0 +1,32 @@
+.note {
+	display: flex;
+	flex-direction: column;
+	background-color: green;
+	margin: 5px;
+	padding: 2px;
+}
+
+.note-header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	background-color: yellow;
+	padding: 2px;
+	font-size: x-large;
+}
+
+.note-text {
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	background-color: pink;
+	padding: 5px;
+}
+
+.note-buttons {
+	display: flex;
+	flex-direction: row;
+	font-size: small;	
+	gap: 3px;
+}
